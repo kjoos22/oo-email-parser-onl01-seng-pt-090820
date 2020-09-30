@@ -12,6 +12,8 @@ Class EmailAddressParser
     @email_addresses = email_addresses
   end
   
-  
+  def parse
+    
+  end
 
 end
