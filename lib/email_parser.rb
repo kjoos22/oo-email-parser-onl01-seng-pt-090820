@@ -6,4 +6,5 @@
 
 Class EmailAddressParser
 
+
 end
