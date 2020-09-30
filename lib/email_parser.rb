@@ -14,7 +14,7 @@ class EmailAddressParser
   end
   
   def parse
-    !@email_addresses.gsub(","," ")
+    @email_addresses = @email_addresses.gsub(", "," ")
     binding.pry
   end
 
